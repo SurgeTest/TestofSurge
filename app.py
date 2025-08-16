@@ -25,7 +25,7 @@ def compute_counts():
 
 # ---------- Sidebar: Game Meta & Admin ----------
 st.sidebar.header("Game Info")
-opponent = st.sidebar.text_input("Opponent", placeholder="e.g., Lakers", key="opponent")
+opponent = st.sidebar.text_input("Opponent", placeholder="e.g., Acadia", key="opponent")
 game_date = st.sidebar.date_input("Game Date", key="game_date")
 st.sidebar.caption("Opponent & Date are required before you can tag.")
 
